@@ -19,4 +19,5 @@ Instructions:
   2.  Configure an Apache server
   3.  Clone this Repository to your local machine and make your duplicate private repository
   4.  Create your project and upload content to a private repository.
-  5.  Inviate 
+  5.  Invite a collaborator (username-anjalirahamatkar)
+  6.  Send your private repository link to me
