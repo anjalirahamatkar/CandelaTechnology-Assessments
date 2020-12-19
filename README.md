@@ -7,7 +7,7 @@ Problem Statement:
   
     Write a Python code to get the input from raw_data.txt and arrange the uc-avg of both station in ascending order and print table on a web page running on Apache server.
     Note: a.  Table should contain the information of time,stations and uc-avg.
-          b.  Script should run whenever I load your web page on apache server
+          b.  Script should run whenever we load your web page on apache server
 
 
 
