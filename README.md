@@ -2,7 +2,7 @@
 
 Problem Statement:
   
-  1.  Check the raw_data.txt file which contain the information 
+  1.  Check the raw_data.txt file which contain the information and it is generated while we run the test on layer-4 for 5 min.
   2.  Each Line has data of two station which is connected with single endpoint.
   
     Write a Python code to get the input from raw_data.txt and arrange the uc-avg of both station in ascending order and print table on a web page running on Apache server.
@@ -16,6 +16,7 @@ Problem Statement:
 Instructions:
 
   1.  Use Fedora Operating System.If you don't have so you can download virtual box and fedora iso image on windows.
-  2.  Clone this Repository to your local machine.
-  3.  Create your project and upload content to a your local repository.
-  4.  Send your Repository link to me
+  2.  Configure an Apache server
+  3.  Clone this Repository to your local machine.
+  4.  Create your project and upload content to a your local repository.
+  5.  Send your Repository link to me
