@@ -17,6 +17,5 @@ Instructions:
 
   1.  Use Fedora Operating System.If you don't have so you can install virtual box and fedora iso image on windows.
   2.  Configure an Apache server
-  3.  Clone this Repository to your local machine.
+  3.  Fork and Clone this Repository to your local machine.
   4.  Create your project and upload content to a your local repository.
-  5.  Send your Repository link to me
