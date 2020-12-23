@@ -1,0 +1,46 @@
+<html>
+<body>
+
+<h1>Candela Technologies</h1>
+
+<p>The onclick event is used to trigger a function when an element is clicked on.</p>
+
+<p>Click the button to trigger the script to run</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+            if (this.status == 200){
+                console.log(this.responseText);
+
+                // You can display the output as follows but try to display in more human readable format
+                document.getElementById("demo").innerHTML =this.responseText;
+                // Write your code here
+
+            }
+            else{
+                document.getElementById("demo").innerHTML ="Invalid Response";
+            }
+
+        }
+        else{
+            document.getElementById("demo").innerHTML ="No Response";
+        }
+    };
+    xhttp.open("POST", "http://localhost:8087", true);
+    xhttp.send("request=run_script");
+
+
+
+
+}
+</script>
+
+</body>
+</html>
